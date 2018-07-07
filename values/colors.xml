@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8763ca</color>
+    <color name="colorPrimaryDark">#68248a</color>
+    <color name="backgroundColor">#ffffff</color>
+    <color name="button_main">#1c9768</color>
+    <color name="text_main">#ffffff</color>
+    <color name="foggy_purple">#7c7d6fb5</color>
+    <color name="colorAccent">#3d125f</color>
+    <color name="text_back">#ffb74d</color>
+
+</resources>

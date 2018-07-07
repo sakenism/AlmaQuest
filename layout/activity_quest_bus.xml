@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
+    android:background="#ffffff"
+    android:gravity="center"
+    tools:context="com.example.sunny.alma.QuestBus"
+    >
+
+    <LinearLayout
+        android:id="@+id/menu_general"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/done"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/text_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="@string/done_transport"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/foggy_purple"/>
+
+        <Button
+            android:id="@+id/buttonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/button_main"
+            android:clickable="?android:attr/windowActionBar"
+            android:singleLine="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/text_main"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:text="@string/back"
+             />
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@color/button_main"
+            android:clickable="?android:attr/windowActionBar"
+            android:singleLine="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/text_main"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:layout_toRightOf="@+id/buttonClick"
+            android:text="Go to next quest" />
+    </LinearLayout>
+
+</LinearLayout>

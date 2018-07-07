@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Alma</string>
+    <string name="quests">Quests</string>
+    <string name="album">Album</string>
+    <string name="achievements">Achievements</string>
+    <string name="quest_shopping">Shopping</string>
+    <string name="quest_food">Food</string>
+    <string name="quest_history">Alma</string>
+    <string name="quest_transport">Quests</string>
+    <string name="quest_mountains">Alma</string>
+    <string name="done">Congrats! New achievement unlocked:</string>
+    <string name="done_shopping"><b>Shopogolic</b></string>
+    <string name="done_food"><b>Gourman</b></string>
+    <string name="done_history"><b>Palentologist</b></string>
+    <string name="done_transport"><b>Bus driver</b></string>
+    <string name="done_mountains"><b>Pioneer</b></string>
+    <string name="back">Back to Quests</string>
+</resources>
