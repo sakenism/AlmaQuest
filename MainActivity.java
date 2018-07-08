@@ -1,6 +1,9 @@
 package com.example.saken.vst;
 
+import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,9 +11,21 @@ import android.widget.Button;
 
 import com.example.saken.vst.R;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Arrays;
+
+import static java.lang.Boolean.*;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button buttonQuests, buttonAchive, buttonAlbums;
+    String filename = "myfile";
+    String fileContents = "Hello world!";
+    FileOutputStream outputStream;
+
+
 
 
     @Override
@@ -40,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
     public void openQuests(){
         Intent intent = new Intent(this, Quests.class);
         startActivity(intent);
